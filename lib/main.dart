@@ -36,7 +36,7 @@ class ProfilePage extends StatelessWidget {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                   image: AssetImage(
-                    "images/1.jpg",
+                    "images/back1.jpg",
                   ),
                   fit: BoxFit.cover,
                 )),
@@ -50,7 +50,8 @@ class ProfilePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.black,
-                      image: DecorationImage(image: AssetImage("images/1.jpg")),
+                      image: DecorationImage(
+                          image: AssetImage("images/back1.jpg")),
                       border: Border.all(color: Colors.black, width: 5)),
                 ),
               ),
@@ -175,7 +176,7 @@ class ProfilePage extends StatelessWidget {
                             height: 50,
                             width: 50,
                             child: CircleAvatar(
-                              backgroundImage: AssetImage("images/1.jpg"),
+                              backgroundImage: AssetImage("images/back1.jpg"),
                             )),
                         title: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
